@@ -14,6 +14,7 @@ svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci
 svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman
 svn co https://github.com/kongfl888/luci-app-adguardhome/trunk ./luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
+svn co https://github.com/dhdgves/openwrt-packages_action/trunk  ./luci-app-netdata
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
