@@ -15,6 +15,8 @@ svn co https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-
 svn co https://github.com/rufengsuixing/luci-app-adguardhome/trunk ./luci-app-adguardhome
 svn co https://github.com/kenzok8/openwrt-packages/trunk/luci-app-aliddns
 svn co https://github.com/fw876/helloworld/trunk 
+mv ./trunk/* .
+rm -rf ./trunk
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 rm -rf ./*/.git
 rm -rf ./*/.svn 
