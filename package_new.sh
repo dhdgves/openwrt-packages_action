@@ -18,6 +18,9 @@ svn co https://github.com/fw876/helloworld/trunk
 mv ./trunk/* .
 rm -rf ./trunk
 svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
+svn co https://github.com/openwrt/packages/trunk/utils/dockerd  ./dockerd
+svn co https://github.com/openwrt/packages/trunk/utils/dockerd  ./docker
+svn co https://github.com/openwrt/packages/trunk/utils/docker-compose ./docker-compose
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
