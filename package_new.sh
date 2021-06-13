@@ -21,8 +21,8 @@ svn co https://github.com/jerrykuku/lua-maxminddb/trunk ./lua-maxminddb
 svn co https://github.com/openwrt/packages/trunk/utils/dockerd  ./dockerd
 svn co https://github.com/openwrt/packages/trunk/utils/dockerd  ./docker
 svn co https://github.com/openwrt/packages/trunk/utils/docker-compose ./docker-compose
-sed -i "s|../../lang/golang/golang-package.mk|../lang/golang/golang-package.mk|g"  dockerd/Makefile
-sed -i "s|../../lang/golang/golang-package.mk|../lang/golang/golang-package.mk|g"  docker/Makefile
+sed -i "s|../../lang/golang/golang-package.mk|../golang/golang-package.mk|g"  dockerd/Makefile
+sed -i "s|../../lang/golang/golang-package.mk|../golang/golang-package.mk|g"  docker/Makefile
 svn co https://github.com/openwrt/packages/trunk/utils/containerd ./containerd
 svn co https://github.com/openwrt/packages/trunk/lang/golang  ./golang
 svn co https://github.com/openwrt/packages/trunk/utils/libnetwork ./libnetwork
