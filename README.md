@@ -32,7 +32,9 @@
 ## 不要为了下载而Fork这个项目
 
 ## 支持一下？（推荐使用支付宝）
-[点我打钱](https://ac59075b964b0715.link.6n6n.top/app/index.php?rootid=123&n=qrpay_free)
+[点我打钱](https://coding-pages-bucket-3403475-7618161-17959-614140-1253773788.cos-website.ap-hongkong.myqcloud.com/)
+
+更新为原作者可用付款链接，[原作者仓库](https://github.com/liuran001/openwrt-packages_action)，支持原作者
 
 感谢名单  
 | 日期 | 支付宝昵称 | 金额 |
