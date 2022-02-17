@@ -28,7 +28,7 @@ svn co https://github.com/openwrt/packages/trunk/lang/golang  ./golang
 svn co https://github.com/openwrt/packages/trunk/utils/libnetwork ./libnetwork
 svn co https://github.com/openwrt/packages/trunk/utils/runc ./runc
 svn co https://github.com/openwrt/packages/trunk/utils/tini ./tini
-svn co https://github.com/lisaac/luci-lib-docker/trunk/collections/luci-lib-docker
+svn co https://github.com/lisaac/luci-lib-docker/trunk/collections/luci-lib-docker ./luci-lib-docker
 rm -rf ./*/.git
 rm -rf ./*/.svn 
 rm -f .gitattributes .gitignore
